@@ -1,16 +1,19 @@
-import React from "react"
-import PropTypes from "prop-types"
+import React from "react";
+import { Container, Row } from "react-bootstrap";
+import Head from "./Head";
+import Header from "./Header";
+
 class Home extends React.Component {
-  render () {
+  render() {
     return (
-      <React.Fragment>
-        Greetings: cutare
-      </React.Fragment>
+      <Container fluid className="main">
+        <Row>
+          <Header />
+        </Row>
+        <Head />
+      </Container>
     );
   }
 }
 
-Home.propTypes = {
-  greetings: PropTypes.string
-};
-export default Home
+export default Home;
