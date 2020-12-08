@@ -5,6 +5,7 @@ import Deploy from "./Deploy";
 import Head from "./Head";
 import Header from "./Header";
 import Trial from './Trial'
+import Whyus from "./Whyus";
 import Work from "./Work";
 
 class Home extends React.Component {
@@ -19,6 +20,7 @@ class Home extends React.Component {
         <Trial />
         <Deploy />
         <Work />
+        <Whyus />
       </Container>
     );
   }
