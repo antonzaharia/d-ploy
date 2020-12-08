@@ -1,9 +1,11 @@
 import React from "react";
 import { Container, Row } from "react-bootstrap";
 import Bitmap from "./Bitmap";
+import Deploy from "./Deploy";
 import Head from "./Head";
 import Header from "./Header";
 import Trial from './Trial'
+import Work from "./Work";
 
 class Home extends React.Component {
   render() {
@@ -15,6 +17,8 @@ class Home extends React.Component {
         <Head />
         <Bitmap />
         <Trial />
+        <Deploy />
+        <Work />
       </Container>
     );
   }
