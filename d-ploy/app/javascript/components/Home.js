@@ -7,6 +7,8 @@ import Header from "./Header";
 import Trial from './Trial'
 import Whyus from "./Whyus";
 import Work from "./Work";
+import Connect from "./Connect"
+import Footer from "./Footer";
 
 class Home extends React.Component {
   render() {
@@ -21,6 +23,8 @@ class Home extends React.Component {
         <Deploy />
         <Work />
         <Whyus />
+        <Connect />
+        <Footer />
       </Container>
     );
   }
