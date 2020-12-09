@@ -13,7 +13,7 @@ import Footer from "./Footer";
 class Home extends React.Component {
   render() {
     return (
-      <Container fluid className="main">
+      <div className="main">
         <Row>
           <Header />
         </Row>
@@ -25,7 +25,7 @@ class Home extends React.Component {
         <Whyus />
         <Connect />
         <Footer />
-      </Container>
+      </div>
     );
   }
 }

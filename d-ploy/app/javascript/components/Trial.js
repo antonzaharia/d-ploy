@@ -14,7 +14,6 @@ export default function Trial() {
           <img src={arrow} alt="arrow" className="arrow-blue"/>
         </a>
       </div>
-      
     </div>
   );
 }
